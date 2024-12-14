@@ -1,0 +1,50 @@
+@media (min-width: 769px) {
+    
+    .navegacao__menu {
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    .consultas__lista {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    li {
+        width: 40vw;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+   body, html {
+    height: 100vh;
+   }
+
+   .consultas__data {
+        padding: 1rem 0 1rem 2rem;
+        background-color: #fff;
+        margin: 3em 0 3em 0;
+   }
+
+    .consultas__lista {
+        justify-content:start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 2rem;
+        gap: 3.2rem;
+    
+    }
+
+    li {
+        width: 30vw;
+    }
+
+    .consulta__card-paciente img {
+        height: 48px;
+        width: 48px;
+    }
+}

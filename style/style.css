@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: linear-gradient(166deg, #F8F4FF 0%, #EFF0F4 100%);
+    font-family: var(--fonte);
+    font-size: 16px;
+    height: 100vh;
+    color: var(--texto-principal);
+}
+
+:root {
+    --fonte: "Montserrat", sans-serif;
+    --botao-callVideo: #FFB050;
+    --texto-principal: #464646;
+    --texto-secundario: #A3A3A3;
+    --botao-endereço: #4894FF;
+    --fundo-card: #fff;
+}
+
+button {
+    cursor: pointer;
+}
+

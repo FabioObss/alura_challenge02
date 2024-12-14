@@ -1,0 +1,62 @@
+/* ESTILIZAÇÃO DOS BOTOES e ICONES */
+
+.camera, .pin-mapa {
+    display: inline-block;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.camera {
+    background-image: url(/assets/Camera.png);
+    width: 16px;
+    height: 10.6px;
+}
+
+.pin-mapa {
+    background-image: url(/assets/pin.png);
+    width: 13px;
+    height: 16px;
+}
+
+.chat {
+    width: 32px;
+    height: 32px;
+
+    border-radius: 50%;
+    border: none;
+    background-image: url(/assets/chat2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ESTILIZAÇÃO DOS BOTOES DE CHAMADA */
+
+.videoCall, .audioCall, .adress {
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+}
+
+.videoCall {
+    background-color: var(--botao-callVideo);
+    border: none;
+    color: #fff;
+    width: 50%;
+}
+
+.audioCall {
+    background-color: #fff;
+    border: 1px solid #ECECEC;
+    width: 50%;
+}
+
+.adress {
+    background-color: var(--botao-endereço);
+    border: none;
+    color: #fff;
+    width: 100%;
+}

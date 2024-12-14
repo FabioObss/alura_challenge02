@@ -1,0 +1,31 @@
+.navegacao {
+    position: fixed;
+    bottom: 0%;
+    height: 70px;
+    width: 100vw;
+    background-color: #fff;
+    box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 12px 12px 0px 0px;
+}
+
+.navegacao__menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:baseline;
+    height: 100%;
+    text-align: center;
+}
+
+.navegacao__menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    gap: .3rem;
+}
+
+.navegacao__menu-item p {
+    font-size: 12px;
+    color: var(--texto-secundario);
+}
+
