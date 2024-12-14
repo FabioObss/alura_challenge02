@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desafio 2. Desenvolvendo projeto sozinho do zero.">
+    <meta name="author" content="Fabio Santos">
+    <link rel="stylesheet" href="/style/navbar.css">
+    <link rel="stylesheet" href="/style/botoes.css">
+    <link rel="stylesheet" href="/style/cards.css">
+    <link rel="stylesheet" href="/style/cabecalho.css">
+    <link rel="stylesheet" href="/style/responsivo.css">
+    <link rel="stylesheet" href="/style/reset.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Interface de Usuário</title>
+</head>
+<body>
+
+    <nav class="navegacao">
+        <div class="navegacao__menu">
+            <div class="navegacao__menu-item">
+                <a href="#"><img src="/assets/Calendarioicone.png" alt=""></a>
+                <p>Consultas</p>
+            </div>
+            <div class="navegacao__menu-item">
+                <a href="#"><img src="/assets/clientes icone.png" alt=""></a>
+                <p>Clientes</p>
+            </div>
+            <div class="navegacao__menu-item">
+                <a href="#"><img src="/assets/relatorios icone.png" alt=""></a>
+                <p>Relatórios</p>
+            </div>
+            <div class="navegacao__menu-item">
+                <a href="#"><img src="/assets/menu icone.png" alt=""></a>
+                <p>Menu</p>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- CABEÇALHO PERFIL USUARIO -->
+    <main>
+
+        <section class="cabecalho">
+
+            <div class="cabecalho__usuario">
+                <img class="usuario-imagem" src="./assets/perfil-1.png" alt="Foto perfil do usuário ativo">
+                <h1>Olá, Pudin</h1>
+                <p>Mais 4 consultas hoje</p>
+            </div>
+
+        </section>
+
+    <!-- CONTEUDO PRINCIPAL - CARDS -->
+    
+       <section class="consultas">
+
+            <div class="consultas__data">Hoje</div>
+
+            <ul class="consultas__lista">
+                
+                <li>
+                    <div class="consultas__card">
+                        <div class="consultas__card-titulo">
+                            <div class="consulta__card-paciente">
+                                <img src="/assets/perfil-2.svg" class="consulta__card-foto" alt="foto perfil Luciana dias">
+                                <div>                                   
+                                    <div class="consulta__card-paciente-info"> 
+                                        <div>
+                                            <strong>Luciana Dias</strong>
+                                        </div>
+                                        <span>
+                                            <span aria-hidden="true" class="camera"></span>
+                                            Consulta Remota
+                                        </span>
+                                    </div>
+                                </div>        
+                            </div>
+                                <button class="chat"></button>                              
+                        </div>
+                        <div class="consultas__card-horario">
+                            <p>14:00 - 15:00 (1 hora)</p>
+                            <div class="consulta__card-botoes">
+                                <button class="videoCall">Ligar por vídeo</button>
+                                <button class="audioCall">Ligar por áudio</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="consultas__card">
+                        <div class="consultas__card-titulo">
+                            <div class="consulta__card-paciente">
+                                <img src="/assets/perfil-3.svg" class="consulta__card-foto" alt="foto perfil Luciana dias">
+                                <div>                                   
+                                    <div class="consulta__card-paciente-info"> 
+                                        <div>
+                                            <strong>Larissa Santana</strong>
+                                        </div>
+                                        <span>
+                                            <span aria-hidden="true" class="pin-mapa"></span>
+                                            Consulta no local
+                                        </span>
+                                    </div>
+                                </div>        
+                            </div>
+                                <button class="chat"></button>                              
+                        </div>
+                        <div class="consultas__card-horario">
+                            <p>16:00 - 17:00 (1 hora)</p>
+                            <div class="consulta__card-botoes">
+                                <button class="adress">Ver endereço</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="consultas__card">
+                        <div class="consultas__card-titulo">
+                            <div class="consulta__card-paciente">
+                                <img src="/assets/perfil-4.svg" class="consulta__card-foto" alt="foto perfil Luciana dias">
+                                <div>                                   
+                                    <div class="consulta__card-paciente-info"> 
+                                        <div>
+                                            <strong>Marcos Correia</strong>
+                                        </div>
+                                        <span>
+                                            <span aria-hidden="true" class="camera"></span>
+                                            Consulta Remota
+                                        </span>
+                                    </div>
+                                </div>        
+                            </div>
+                                <button class="chat"></button>                              
+                        </div>
+                        <div class="consultas__card-horario">
+                            <p>17:20 - 18:00 (40 minutos)</p>
+                            <div class="consulta__card-botoes">
+                                <button class="videoCall">Ligar por vídeo</button>
+                                <button class="audioCall">Ligar por áudio</button>
+                            </div>
+                        </div>
+                    </div>
+                </li> 
+                
+                <li>
+                    <div class="consultas__card">
+                        <div class="consultas__card-titulo">
+                            <div class="consulta__card-paciente">
+                                <img src="/assets/perfil-3.svg" class="consulta__card-foto" alt="foto perfil Luciana dias">
+                                <div>                                   
+                                    <div class="consulta__card-paciente-info"> 
+                                        <div>
+                                            <strong>Larissa Santana</strong>
+                                        </div>
+                                        <span>
+                                            <span aria-hidden="true" class="pin-mapa"></span>
+                                            Consulta no local
+                                        </span>
+                                    </div>
+                                </div>        
+                            </div>
+                                <button class="chat"></button>                              
+                        </div>
+                        <div class="consultas__card-horario">
+                            <p>16:00 - 17:00 (1 hora)</p>
+                            <div class="consulta__card-botoes">
+                                <button class="adress">Ver endereço</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+               
+            </ul>
+
+        </section>
+
+        <section class="consultas">
+
+            <div class="consultas__data">Amanhã</div>
+
+            <ul class="consultas__lista">
+                
+                
+                <li>
+                    <div class="consultas__card">
+                        <div class="consultas__card-titulo">
+                            <div class="consulta__card-paciente">
+                                <img src="/assets/perfil-5.svg" class="consulta__card-foto" alt="foto perfil Luciana dias">
+                                <div>                                   
+                                    <div class="consulta__card-paciente-info"> 
+                                        <div>
+                                            <strong>Clara Lemos</strong>
+                                        </div>
+                                        <span>
+                                            <span aria-hidden="true" class="pin-mapa"></span>
+                                            Consulta no local
+                                        </span>
+                                    </div>
+                                </div>        
+                            </div>
+                                <button class="chat"></button>                              
+                        </div>
+                        <div class="consultas__card-horario">
+                            <p>18:00 - 19:00 (1 hora)</p>
+                            <div class="consulta__card-botoes">
+                                <button class="adress">Ver endereço</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="consultas__card">
+                        <div class="consultas__card-titulo">
+                            <div class="consulta__card-paciente">
+                                <img src="/assets/perfil-2.svg" class="consulta__card-foto" alt="foto perfil Luciana dias">
+                                <div>                                   
+                                    <div class="consulta__card-paciente-info"> 
+                                        <div>
+                                            <strong>Luciana dias</strong>
+                                        </div>
+                                        <span>
+                                            <span aria-hidden="true" class="camera"></span>
+                                            Consulta Remota
+                                        </span>
+                                    </div>
+                                </div>        
+                            </div>
+                                <button class="chat"></button>                              
+                        </div>
+                        <div class="consultas__card-horario">
+                            <p>14:00 - 15:00 (1 hora)</p>
+                            <div class="consulta__card-botoes">
+                                <button class="videoCall">Ligar por vídeo</button>
+                                <button class="audioCall">Ligar por áudio</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="consultas__card">
+                        <div class="consultas__card-titulo">
+                            <div class="consulta__card-paciente">
+                                <img src="/assets/perfil-4.svg" class="consulta__card-foto" alt="foto perfil Luciana dias">
+                                <div>                                   
+                                    <div class="consulta__card-paciente-info"> 
+                                        <div>
+                                            <strong>Marcos Correia</strong>
+                                        </div>
+                                        <span>
+                                            <span aria-hidden="true" class="camera"></span>
+                                            Consulta Remota
+                                        </span>
+                                    </div>
+                                </div>        
+                            </div>
+                                <button class="chat"></button>                              
+                        </div>
+                        <div class="consultas__card-horario">
+                            <p>17:20 - 18:00 (4o minutos)</p>
+                            <div class="consulta__card-botoes">
+                                <button class="videoCall">Ligar por vídeo</button>
+                                <button class="audioCall">Ligar por áudio</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="consultas__card">
+                        <div class="consultas__card-titulo">
+                            <div class="consulta__card-paciente">
+                                <img src="/assets/perfil-3.svg" class="consulta__card-foto" alt="foto perfil Luciana dias">
+                                <div>                                   
+                                    <div class="consulta__card-paciente-info"> 
+                                        <div>
+                                            <strong>Larissa Santana</strong>
+                                        </div>
+                                        <span>
+                                            <span aria-hidden="true" class="pin-mapa"></span>
+                                            Consulta no local
+                                        </span>
+                                    </div>
+                                </div>        
+                            </div>
+                                <button class="chat"></button>                              
+                        </div>
+                        <div class="consultas__card-horario">
+                            <p>16:00 - 17:00 (1 hora)</p>
+                            <div class="consulta__card-botoes">
+                                <button class="adress">Ver endereço</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+               
+            </ul>
+
+        </section>    
+
+        <section class="consultas">
+
+            <div class="consultas__data">Quarta-feira</div>
+
+            <ul class="consultas__lista">
+                
+                
+                <li>
+                    <div class="consultas__card">
+                        <div class="consultas__card-titulo">
+                            <div class="consulta__card-paciente">
+                                <img src="/assets/perfil-5.svg" class="consulta__card-foto" alt="foto perfil Luciana dias">
+                                <div>                                   
+                                    <div class="consulta__card-paciente-info"> 
+                                        <div>
+                                            <strong>Clara Lemos</strong>
+                                        </div>
+                                        <span>
+                                            <span aria-hidden="true" class="pin-mapa"></span>
+                                            Consulta no local
+                                        </span>
+                                    </div>
+                                </div>        
+                            </div>
+                                <button class="chat"></button>                              
+                        </div>
+                        <div class="consultas__card-horario">
+                            <p>18:00 - 19:00 (1 hora)</p>
+                            <div class="consulta__card-botoes">
+                                <button class="adress">Ver endereço</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="consultas__card">
+                        <div class="consultas__card-titulo">
+                            <div class="consulta__card-paciente">
+                                <img src="/assets/perfil-2.svg" class="consulta__card-foto" alt="foto perfil Luciana dias">
+                                <div>                                   
+                                    <div class="consulta__card-paciente-info"> 
+                                        <div>
+                                            <strong>Luciana dias</strong>
+                                        </div>
+                                        <span>
+                                            <span aria-hidden="true" class="camera"></span>
+                                            Consulta Remota
+                                        </span>
+                                    </div>
+                                </div>        
+                            </div>
+                                <button class="chat"></button>                              
+                        </div>
+                        <div class="consultas__card-horario">
+                            <p>14:00 - 15:00 (1 hora)</p>
+                            <div class="consulta__card-botoes">
+                                <button class="videoCall">Ligar por vídeo</button>
+                                <button class="audioCall">Ligar por áudio</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="consultas__card">
+                        <div class="consultas__card-titulo">
+                            <div class="consulta__card-paciente">
+                                <img src="/assets/perfil-4.svg" class="consulta__card-foto" alt="foto perfil Luciana dias">
+                                <div>                                   
+                                    <div class="consulta__card-paciente-info"> 
+                                        <div>
+                                            <strong>Marcos Correia</strong>
+                                        </div>
+                                        <span>
+                                            <span aria-hidden="true" class="camera"></span>
+                                            Consulta Remota
+                                        </span>
+                                    </div>
+                                </div>        
+                            </div>
+                                <button class="chat"></button>                              
+                        </div>
+                        <div class="consultas__card-horario">
+                            <p>17:20 - 18:00 (4o minutos)</p>
+                            <div class="consulta__card-botoes">
+                                <button class="videoCall">Ligar por vídeo</button>
+                                <button class="audioCall">Ligar por áudio</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="consultas__card">
+                        <div class="consultas__card-titulo">
+                            <div class="consulta__card-paciente">
+                                <img src="/assets/perfil-3.svg" class="consulta__card-foto" alt="foto perfil Luciana dias">
+                                <div>                                   
+                                    <div class="consulta__card-paciente-info"> 
+                                        <div>
+                                            <strong>Larissa Santana</strong>
+                                        </div>
+                                        <span>
+                                            <span aria-hidden="true" class="pin-mapa"></span>
+                                            Consulta no local
+                                        </span>
+                                    </div>
+                                </div>        
+                            </div>
+                                <button class="chat"></button>                              
+                        </div>
+                        <div class="consultas__card-horario">
+                            <p>16:00 - 17:00 (1 hora)</p>
+                            <div class="consulta__card-botoes">
+                                <button class="adress">Ver endereço</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+               
+            </ul>
+
+
+       </section>      
+
+    </main>
+
+</body>
+</html>
